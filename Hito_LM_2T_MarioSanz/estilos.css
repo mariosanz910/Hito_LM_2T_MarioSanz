@@ -1,0 +1,58 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+/* Contenedor de los pedidos */
+#pedidos-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los pedidos */
+.pedido {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para los clientes dentro de cada pedido */
+.cliente {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Estilo para los productos dentro de cada pedido */
+.productos {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Estilo para cada producto dentro de la lista */
+.producto {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+/* Resaltar el total de la factura */
+.total {
+    font-weight: bold;
+    color: #e91e63;
+    font-size: 16px;
+    margin-top: 10px;
+}

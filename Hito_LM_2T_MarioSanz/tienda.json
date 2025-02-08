@@ -1,0 +1,166 @@
+{
+    "2023": {
+        "primer_trimestre": [
+            {
+                "numero_pedido": "2023-001",
+                "fecha_compra": "2023-01-15",
+                "fecha_entrega": "2023-01-18",
+                "total_factura": 150.00,
+                "cliente": {
+                    "nombre": "Juan",
+                    "apellidos": "Pérez González",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 12",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "juan.perez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Pelota para perro",
+                        "referencia": "P001",
+                        "precio": 25.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Comida para gatos",
+                        "referencia": "C001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Jaula para conejos",
+                        "referencia": "J001",
+                        "precio": 75.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ],
+        "segundo_trimestre": [
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-04-10",
+                "fecha_entrega": "2023-04-12",
+                "total_factura": 90.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "Martínez López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Avenida del Sol 34",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08001",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "ana.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Correa para perro",
+                        "referencia": "C002",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "R001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Cama para perros",
+                        "referencia": "CP001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "2024": {
+        "primer_trimestre": [
+            {
+                "numero_pedido": "2024-001",
+                "fecha_compra": "2024-01-20",
+                "fecha_entrega": "2024-01-22",
+                "total_factura": 200.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Gómez Ruiz",
+                    "telefono": "123123123",
+                    "direccion": {
+                        "calle": "Calle del Parque 45",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "carlos.gomez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "CP002",
+                        "precio": 40.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Sillón para gatos",
+                        "referencia": "SG001",
+                        "precio": 60.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Planta para acuarios",
+                        "referencia": "PA001",
+                        "precio": 100.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ],
+        "segundo_trimestre": [
+            {
+                "numero_pedido": "2024-002",
+                "fecha_compra": "2024-04-15",
+                "fecha_entrega": "2024-04-18",
+                "total_factura": 120.00,
+                "cliente": {
+                    "nombre": "Laura",
+                    "apellidos": "Vázquez Fernández",
+                    "telefono": "456456456",
+                    "direccion": {
+                        "calle": "Calle Luna 8",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41001",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "laura.vazquez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para pájaros",
+                        "referencia": "JP001",
+                        "precio": 40.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Comida para roedores",
+                        "referencia": "CR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Juguete para peces",
+                        "referencia": "JP002",
+                        "precio": 50.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ]
+    }
+}
