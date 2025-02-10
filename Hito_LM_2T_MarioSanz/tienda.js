@@ -1,77 +1,78 @@
-// Se realiza la carga del archivo JSON usando el método fetch() 
+// Se realiza la carga del archivo JSON usando el método fetch()
 fetch("tienda.json")
-    // Verificamos si la respuesta es exitosa
     .then(response => {
-        // Si la respuesta no es correcta (response.ok es falso), lanzamos un error
+        // Verificamos si la respuesta es exitosa
         if (!response.ok) {
             throw new Error("Error al cargar el archivo JSON");
         }
-        // Si la respuesta es exitosa, convertimos los datos a formato JSON
-        return response.json();
+        return response.json(); // Convertimos los datos a formato JSON
     })
-    // Si el JSON se cargó correctamente, pasamos los datos a la función mostrarPedidos
-    .then(data => mostrarPedidos(data))
+    .then(data => mostrarPedidos(data)); // Pasamos los datos a la función mostrarPedidos
 
 // Función principal para mostrar los pedidos en la página
 function mostrarPedidos(data) {
     // Seleccionamos el contenedor HTML donde se mostrarán los pedidos
     const container = document.getElementById("pedidos-container");
 
-    // Iteramos sobre las claves del objeto `data`, que corresponden a los años (2023, 2024)
+    // Iteramos sobre los años en el objeto data (2023, 2024, etc.)
     Object.keys(data).forEach(year => {
-        // Obtenemos los datos de cada año (por ejemplo, 2023 o 2024)
-        const yearData = data[year];
+        const yearData = data[year]; // Obtenemos los datos del año actual
 
-        // Iteramos sobre las claves dentro de cada año, que son los trimestres (por ejemplo, T1, T2)
+        // Iteramos sobre los trimestres dentro de cada año
         Object.keys(yearData).forEach(trimestre => {
-            // Obtenemos los pedidos para cada trimestre
-            const pedidos = yearData[trimestre];
+            const pedidos = yearData[trimestre]; // Obtenemos los pedidos de ese trimestre
 
-            // Creamos un título para el año y trimestre (por ejemplo, "2023 - T1")
+            // Creamos un título con el año y trimestre
             const yearTitle = document.createElement("h2");
             yearTitle.textContent = `${year} - ${trimestre.replace("_", " ")}`;
             container.appendChild(yearTitle); // Añadimos el título al contenedor
 
-            // Iteramos sobre cada pedido de ese trimestre
+            // Iteramos sobre cada pedido en el trimestre
             pedidos.forEach(pedido => {
                 // Creamos un div para representar cada pedido
                 const pedidoDiv = document.createElement("div");
-                pedidoDiv.classList.add("pedido"); // Añadimos una clase "pedido" para aplicar estilos
+                pedidoDiv.classList.add("pedido");
 
-                // Creamos un div para mostrar la información del cliente
+                // Div para la información del cliente
                 const clienteDiv = document.createElement("div");
-                clienteDiv.classList.add("cliente"); // Añadimos una clase "cliente" para aplicar estilos
-
-                // Mostramos los detalles del cliente: nombre, apellidos, teléfono, correo y dirección
+                clienteDiv.classList.add("cliente");
                 clienteDiv.innerHTML = `
                     <strong>Cliente:</strong> ${pedido.cliente.nombre} ${pedido.cliente.apellidos}<br>
                     <strong>Teléfono:</strong> ${pedido.cliente.telefono}<br>
                     <strong>Correo:</strong> ${pedido.cliente.correo}<br>
                     <strong>Dirección:</strong> ${pedido.cliente.direccion.calle}, ${pedido.cliente.direccion.ciudad}, ${pedido.cliente.direccion.codigo_postal}, ${pedido.cliente.direccion.provincia}
                 `;
-                pedidoDiv.appendChild(clienteDiv); // Añadimos la información del cliente al div del pedido
+                pedidoDiv.appendChild(clienteDiv); // Añadimos la información del cliente al pedido
 
-                // Creamos un div para mostrar los productos del pedido
+                // Div para los productos del pedido
                 const productosDiv = document.createElement("div");
-                productosDiv.classList.add("productos"); // Añadimos una clase "productos" para aplicar estilos
-                productosDiv.innerHTML = "<strong>Productos:</strong>"; // Añadimos un título para los productos
+                productosDiv.classList.add("productos");
+                productosDiv.innerHTML = "<strong>Productos:</strong>";
 
-                // Iteramos sobre los productos del pedido y los mostramos
+                let totalFactura = 0; // Variable para almacenar el total calculado
+
+                // Iteramos sobre los productos del pedido
                 pedido.productos.forEach(producto => {
+                    // Calculamos el subtotal del producto (precio * unidades)
+                    let subtotal = producto.precio * producto.unidades;
+                    totalFactura += subtotal; // Sumamos el subtotal al total de la factura
+
                     // Creamos un div para cada producto
                     const productoDiv = document.createElement("div");
-                    productoDiv.classList.add("producto"); // Añadimos una clase "producto" para aplicar estilos
-                    productoDiv.innerHTML = `${producto.nombre} (Referencia: ${producto.referencia}) - ${producto.precio}€ x ${producto.unidades} unidades`;
+                    productoDiv.classList.add("producto");
+                    productoDiv.innerHTML = `
+                        ${producto.nombre} (Referencia: ${producto.referencia}) - ${producto.precio.toFixed(2)}€ x ${producto.unidades} unidades = ${subtotal.toFixed(2)}€
+                    `;
                     productosDiv.appendChild(productoDiv); // Añadimos el producto al div de productos
                 });
-                pedidoDiv.appendChild(productosDiv); // Añadimos el div de productos al div del pedido
+                pedidoDiv.appendChild(productosDiv); // Añadimos los productos al div del pedido
 
-                // Mostramos el total de la factura
+                // Div para mostrar el total de la factura calculado
                 const totalDiv = document.createElement("div");
-                totalDiv.innerHTML = `<strong>Total Factura:</strong> ${pedido.total_factura}€`;
+                totalDiv.innerHTML = `<strong>Total Factura:</strong> ${totalFactura.toFixed(2)}€`;
                 pedidoDiv.appendChild(totalDiv); // Añadimos el total al div del pedido
 
-                // Finalmente, añadimos el div del pedido al contenedor general
+                // Finalmente, añadimos el pedido al contenedor general
                 container.appendChild(pedidoDiv);
             });
         });
