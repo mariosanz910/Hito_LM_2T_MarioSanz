@@ -7,8 +7,8 @@
                 "fecha_entrega": "2023-01-18",
                 "total_factura": 150.00,
                 "cliente": {
-                    "nombre": "Juan",
-                    "apellidos": "Pérez González",
+                    "nombre": "Sergio",
+                    "apellidos": "González",
                     "telefono": "123456789",
                     "direccion": {
                         "calle": "Calle Mayor 12",
@@ -16,7 +16,7 @@
                         "codigo_postal": "28001",
                         "provincia": "Madrid"
                     },
-                    "correo": "juan.perez@email.com"
+                    "correo": "Sergio.gonzalez@email.com"
                 },
                 "productos": [
                     {
@@ -47,8 +47,8 @@
                 "fecha_entrega": "2023-04-12",
                 "total_factura": 90.00,
                 "cliente": {
-                    "nombre": "Ana",
-                    "apellidos": "Martínez López",
+                    "nombre": "Richi",
+                    "apellidos": "Pérez Aragonés",
                     "telefono": "987654321",
                     "direccion": {
                         "calle": "Avenida del Sol 34",
@@ -56,7 +56,7 @@
                         "codigo_postal": "08001",
                         "provincia": "Barcelona"
                     },
-                    "correo": "ana.martinez@email.com"
+                    "correo": "Richi.perez@email.com"
                 },
                 "productos": [
                     {
@@ -89,8 +89,8 @@
                 "fecha_entrega": "2024-01-22",
                 "total_factura": 200.00,
                 "cliente": {
-                    "nombre": "Carlos",
-                    "apellidos": "Gómez Ruiz",
+                    "nombre": "Cristian",
+                    "apellidos": "Espinar Ruiz",
                     "telefono": "123123123",
                     "direccion": {
                         "calle": "Calle del Parque 45",
@@ -98,7 +98,7 @@
                         "codigo_postal": "46001",
                         "provincia": "Valencia"
                     },
-                    "correo": "carlos.gomez@email.com"
+                    "correo": "Cristi.espinar@email.com"
                 },
                 "productos": [
                     {
@@ -129,8 +129,8 @@
                 "fecha_entrega": "2024-04-18",
                 "total_factura": 120.00,
                 "cliente": {
-                    "nombre": "Laura",
-                    "apellidos": "Vázquez Fernández",
+                    "nombre": "Iker",
+                    "apellidos": "Acevedo",
                     "telefono": "456456456",
                     "direccion": {
                         "calle": "Calle Luna 8",
@@ -138,7 +138,7 @@
                         "codigo_postal": "41001",
                         "provincia": "Sevilla"
                     },
-                    "correo": "laura.vazquez@email.com"
+                    "correo": "Iker.acevedo@email.com"
                 },
                 "productos": [
                     {
