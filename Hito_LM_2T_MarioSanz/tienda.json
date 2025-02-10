@@ -38,6 +38,140 @@
                         "unidades": 1
                     }
                 ]
+            },
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-07",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Calle Alcázar 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41003",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "Ana.lopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para peces",
+                        "referencia": "CP001",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Filtro para acuarios",
+                        "referencia": "FA001",
+                        "precio": 55.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA002",
+                        "precio": 20.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-02-18",
+                "fecha_entrega": "2023-02-20",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Gran Vía 5",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Pedro.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Terrario para reptiles",
+                        "referencia": "TR001",
+                        "precio": 120.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Sustrato para reptiles",
+                        "referencia": "SR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Lámpara UVB",
+                        "referencia": "LU001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-03-08",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Fernández",
+                    "telefono": "456123789",
+                    "direccion": {
+                        "calle": "Paseo del Prado 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Marta.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para hámster",
+                        "referencia": "JH001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Rueda para hámster",
+                        "referencia": "RH001",
+                        "precio": 25.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-005",
+                "fecha_compra": "2023-03-22",
+                "fecha_entrega": "2023-03-24",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Serrano",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Avenida Libertad 20",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "Carlos.serrano@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos premium",
+                        "referencia": "CGP001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    }
+                ]
             }
         ],
         "segundo_trimestre": [
@@ -76,6 +210,476 @@
                         "referencia": "CP001",
                         "precio": 30.00,
                         "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-07",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Calle Alcázar 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41003",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "Ana.lopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para peces",
+                        "referencia": "CP001",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Filtro para acuarios",
+                        "referencia": "FA001",
+                        "precio": 55.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA002",
+                        "precio": 20.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-02-18",
+                "fecha_entrega": "2023-02-20",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Gran Vía 5",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Pedro.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Terrario para reptiles",
+                        "referencia": "TR001",
+                        "precio": 120.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Sustrato para reptiles",
+                        "referencia": "SR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Lámpara UVB",
+                        "referencia": "LU001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-03-08",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Fernández",
+                    "telefono": "456123789",
+                    "direccion": {
+                        "calle": "Paseo del Prado 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Marta.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para hámster",
+                        "referencia": "JH001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Rueda para hámster",
+                        "referencia": "RH001",
+                        "precio": 25.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-005",
+                "fecha_compra": "2023-03-22",
+                "fecha_entrega": "2023-03-24",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Serrano",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Avenida Libertad 20",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "Carlos.serrano@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos premium",
+                        "referencia": "CGP001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    }
+                ]
+            }
+        ],
+        "tercer_trimestre": [
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-07-05",
+                "fecha_entrega": "2023-07-07",
+                "total_factura": 110.00,
+                "cliente": {
+                    "nombre": "Jesus",
+                    "apellidos": "Fernández López",
+                    "telefono": "111222333",
+                    "direccion": {
+                        "calle": "Calle de la Rosa 5",
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "48001",
+                        "provincia": "Vizcaya"
+                    },
+                    "correo": "Laura.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete para perros",
+                        "referencia": "JP003",
+                        "precio": 40.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Arena para gatos",
+                        "referencia": "AG001",
+                        "precio": 35.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-07",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Calle Alcázar 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41003",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "Ana.lopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para peces",
+                        "referencia": "CP001",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Filtro para acuarios",
+                        "referencia": "FA001",
+                        "precio": 55.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA002",
+                        "precio": 20.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-02-18",
+                "fecha_entrega": "2023-02-20",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Gran Vía 5",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Pedro.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Terrario para reptiles",
+                        "referencia": "TR001",
+                        "precio": 120.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Sustrato para reptiles",
+                        "referencia": "SR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Lámpara UVB",
+                        "referencia": "LU001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-03-08",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Fernández",
+                    "telefono": "456123789",
+                    "direccion": {
+                        "calle": "Paseo del Prado 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Marta.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para hámster",
+                        "referencia": "JH001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Rueda para hámster",
+                        "referencia": "RH001",
+                        "precio": 25.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-005",
+                "fecha_compra": "2023-03-22",
+                "fecha_entrega": "2023-03-24",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Serrano",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Avenida Libertad 20",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "Carlos.serrano@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos premium",
+                        "referencia": "CGP001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    }
+                ]
+            }
+        ],
+        "cuarto_trimestre": [
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-10-10",
+                "fecha_entrega": "2023-10-12",
+                "total_factura": 85.00,
+                "cliente": {
+                    "nombre": "David",
+                    "apellidos": "Martínez Ríos",
+                    "telefono": "444555666",
+                    "direccion": {
+                        "calle": "Paseo del Prado 3",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28014",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "David.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Pecera pequeña",
+                        "referencia": "PP001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA001",
+                        "precio": 35.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-07",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Calle Alcázar 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41003",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "Ana.lopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para peces",
+                        "referencia": "CP001",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Filtro para acuarios",
+                        "referencia": "FA001",
+                        "precio": 55.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA002",
+                        "precio": 20.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-02-18",
+                "fecha_entrega": "2023-02-20",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Gran Vía 5",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Pedro.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Terrario para reptiles",
+                        "referencia": "TR001",
+                        "precio": 120.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Sustrato para reptiles",
+                        "referencia": "SR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Lámpara UVB",
+                        "referencia": "LU001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-03-08",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Fernández",
+                    "telefono": "456123789",
+                    "direccion": {
+                        "calle": "Paseo del Prado 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Marta.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para hámster",
+                        "referencia": "JH001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Rueda para hámster",
+                        "referencia": "RH001",
+                        "precio": 25.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-005",
+                "fecha_compra": "2023-03-22",
+                "fecha_entrega": "2023-03-24",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Serrano",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Avenida Libertad 20",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "Carlos.serrano@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos premium",
+                        "referencia": "CGP001",
+                        "precio": 30.00,
+                        "unidades": 2
                     }
                 ]
             }
@@ -120,6 +724,140 @@
                         "unidades": 1
                     }
                 ]
+            },
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-07",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Calle Alcázar 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41003",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "Ana.lopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para peces",
+                        "referencia": "CP001",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Filtro para acuarios",
+                        "referencia": "FA001",
+                        "precio": 55.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA002",
+                        "precio": 20.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-02-18",
+                "fecha_entrega": "2023-02-20",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Gran Vía 5",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Pedro.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Terrario para reptiles",
+                        "referencia": "TR001",
+                        "precio": 120.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Sustrato para reptiles",
+                        "referencia": "SR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Lámpara UVB",
+                        "referencia": "LU001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-03-08",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Fernández",
+                    "telefono": "456123789",
+                    "direccion": {
+                        "calle": "Paseo del Prado 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Marta.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para hámster",
+                        "referencia": "JH001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Rueda para hámster",
+                        "referencia": "RH001",
+                        "precio": 25.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-005",
+                "fecha_compra": "2023-03-22",
+                "fecha_entrega": "2023-03-24",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Serrano",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Avenida Libertad 20",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "Carlos.serrano@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos premium",
+                        "referencia": "CGP001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    }
+                ]
             }
         ],
         "segundo_trimestre": [
@@ -158,6 +896,476 @@
                         "referencia": "JP002",
                         "precio": 50.00,
                         "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-07",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Calle Alcázar 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41003",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "Ana.lopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para peces",
+                        "referencia": "CP001",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Filtro para acuarios",
+                        "referencia": "FA001",
+                        "precio": 55.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA002",
+                        "precio": 20.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-02-18",
+                "fecha_entrega": "2023-02-20",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Gran Vía 5",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Pedro.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Terrario para reptiles",
+                        "referencia": "TR001",
+                        "precio": 120.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Sustrato para reptiles",
+                        "referencia": "SR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Lámpara UVB",
+                        "referencia": "LU001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-03-08",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Fernández",
+                    "telefono": "456123789",
+                    "direccion": {
+                        "calle": "Paseo del Prado 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Marta.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para hámster",
+                        "referencia": "JH001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Rueda para hámster",
+                        "referencia": "RH001",
+                        "precio": 25.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-005",
+                "fecha_compra": "2023-03-22",
+                "fecha_entrega": "2023-03-24",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Serrano",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Avenida Libertad 20",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "Carlos.serrano@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos premium",
+                        "referencia": "CGP001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    }
+                ]
+            }
+        ],
+        "tercer_trimestre": [
+            {
+                "numero_pedido": "2024-003",
+                "fecha_compra": "2024-07-08",
+                "fecha_entrega": "2024-07-10",
+                "total_factura": 130.00,
+                "cliente": {
+                    "nombre": "Alejandro",
+                    "apellidos": "Tovar",
+                    "telefono": "777888999",
+                    "direccion": {
+                        "calle": "Calle Serrano 20",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28006",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Tovias.alex@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Caseta para perros",
+                        "referencia": "CP003",
+                        "precio": 80.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Alimento para peces",
+                        "referencia": "AP002",
+                        "precio": 50.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-07",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Calle Alcázar 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41003",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "Ana.lopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para peces",
+                        "referencia": "CP001",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Filtro para acuarios",
+                        "referencia": "FA001",
+                        "precio": 55.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA002",
+                        "precio": 20.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-02-18",
+                "fecha_entrega": "2023-02-20",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Gran Vía 5",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Pedro.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Terrario para reptiles",
+                        "referencia": "TR001",
+                        "precio": 120.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Sustrato para reptiles",
+                        "referencia": "SR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Lámpara UVB",
+                        "referencia": "LU001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-03-08",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Fernández",
+                    "telefono": "456123789",
+                    "direccion": {
+                        "calle": "Paseo del Prado 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Marta.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para hámster",
+                        "referencia": "JH001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Rueda para hámster",
+                        "referencia": "RH001",
+                        "precio": 25.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-005",
+                "fecha_compra": "2023-03-22",
+                "fecha_entrega": "2023-03-24",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Serrano",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Avenida Libertad 20",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "Carlos.serrano@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos premium",
+                        "referencia": "CGP001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    }
+                ]
+            }
+        ],
+        "cuarto_trimestre": [
+            {
+                "numero_pedido": "2024-004",
+                "fecha_compra": "2024-10-25",
+                "fecha_entrega": "2024-10-28",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ian",
+                    "apellidos": "Fernandez",
+                    "telefono": "123987456",
+                    "direccion": {
+                        "calle": "Avenida Libertad 7",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Ian.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Transportín para gatos",
+                        "referencia": "TG002",
+                        "precio": 45.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Snacks para perros",
+                        "referencia": "SP001",
+                        "precio": 50.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-07",
+                "total_factura": 95.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Calle Alcázar 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41003",
+                        "provincia": "Sevilla"
+                    },
+                    "correo": "Ana.lopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para peces",
+                        "referencia": "CP001",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Filtro para acuarios",
+                        "referencia": "FA001",
+                        "precio": 55.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Decoración para acuarios",
+                        "referencia": "DA002",
+                        "precio": 20.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-003",
+                "fecha_compra": "2023-02-18",
+                "fecha_entrega": "2023-02-20",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "123789456",
+                    "direccion": {
+                        "calle": "Gran Vía 5",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28013",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "Pedro.martinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Terrario para reptiles",
+                        "referencia": "TR001",
+                        "precio": 120.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Sustrato para reptiles",
+                        "referencia": "SR001",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Lámpara UVB",
+                        "referencia": "LU001",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-004",
+                "fecha_compra": "2023-03-08",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Fernández",
+                    "telefono": "456123789",
+                    "direccion": {
+                        "calle": "Paseo del Prado 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08002",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "Marta.fernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Jaula para hámster",
+                        "referencia": "JH001",
+                        "precio": 50.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Rueda para hámster",
+                        "referencia": "RH001",
+                        "precio": 25.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023-005",
+                "fecha_compra": "2023-03-22",
+                "fecha_entrega": "2023-03-24",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Serrano",
+                    "telefono": "789456123",
+                    "direccion": {
+                        "calle": "Avenida Libertad 20",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "Carlos.serrano@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos premium",
+                        "referencia": "CGP001",
+                        "precio": 30.00,
+                        "unidades": 2
                     }
                 ]
             }
